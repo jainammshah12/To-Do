@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+h1{
+    font-family: 'Pushster', 'sans serif';
+    text-align: center;
+    font-size:100px;
+    background-color: aqua;
+    width:100%;
+}
+
+#userInput{
+    position: absolute;
+    width: 700px;
+    height: 80px;
+    top: 200px;
+    left: 100px;
+    z-index:auto;
+}
+
+#enter{
+	border: none;
+	padding: 3px 20px;
+	border-radius: 5px;
+    background-color:greenyellow;
+    size: 100px;
+    font-size: 50px;
+    transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #02798F;
+	color: #FFCD5D;
+}
+
+li {
+	font-family: 'Pushster', 'sans serif';
+	font-size: 50px;
+	list-style: none;
+	padding: 20px 30px;
+	color: #000000;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #19bd71;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #c6ea43;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #3ff12b;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input::placeholder{
+    font-family: 'Pushster', 'sans serif';
+    font-size: 45px;
+}
+
+input::first-line{
+    font-family: 'Pushster', 'sans serif';
+    font-size: 45px;
+}
+
+.addtask{
+    width: 900px;
+    height: 100px;
+    
+}
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
